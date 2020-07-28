@@ -48,13 +48,13 @@ class Navigation extends React.Component {
             renders the first one that matches the current URL. */}
 
         <Switch>
-          <Route path="./about">
+          <Route path="/about">
             <About />
           </Route>
-          <Route path="./portfolio">
+          <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="./">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
